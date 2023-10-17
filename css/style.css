@@ -1,0 +1,33 @@
+:root {
+    --primary-background-color: #1ABC9C;
+    --primary-color: white;
+}
+
+
+header {
+    background-color: #2C3E50;
+    color: white;
+}
+
+#jumbo {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+}
+
+.avatar {
+    width: 20%;
+}
+
+#portfolio img {
+    width: 100%;
+}
+
+#about {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color)
+}
+
+.btn-primary-me {
+    color: white;
+    border: 1px solid white;
+}
