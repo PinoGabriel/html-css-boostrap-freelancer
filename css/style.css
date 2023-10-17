@@ -9,9 +9,24 @@ header {
     color: white;
 }
 
+.btn_bars {
+    color: lightgrey;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
 #jumbo {
     background-color: var(--primary-background-color);
     color: var(--primary-color);
+}
+
+.me_display {
+    display: none;
+}
+
+.me_list {
+    display: flex;
+    justify-content: end;
 }
 
 .avatar {
@@ -45,4 +60,30 @@ header {
 #find-us {
     color: var(--primary-color);
     background-color: #3A546D;
+}
+
+.box {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 80%;
+}
+
+#copyright {
+    background-color: #2C3E50;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+@media only screen and (min-width:576px) {
+
+    .me_list {
+        display: none;
+    }
+
+    .me_display {
+        display: block;
+    }
+
 }
