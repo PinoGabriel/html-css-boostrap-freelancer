@@ -45,7 +45,8 @@ header {
     border-radius: 1rem;
 }
 
-#portfolio .my_line {
+#portfolio .my_line,
+#contact .my_line {
     border-color: black;
 }
 
@@ -85,6 +86,11 @@ header {
     color: white;
     font-size: 14px;
 }
+
+footer span {
+ color: var(--primary-background-color);
+}
+
 
 
 
