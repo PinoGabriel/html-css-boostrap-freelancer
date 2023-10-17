@@ -9,6 +9,11 @@ header {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .btn_bars {
     color: lightgrey;
     border: 1px solid white;
