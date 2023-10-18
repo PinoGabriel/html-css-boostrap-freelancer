@@ -24,6 +24,7 @@ a {
 #jumbo {
     background-color: var(--primary-background-color);
     color: var(--primary-color);
+    padding-top: 7rem; 
 }
 
 .me_display {
@@ -83,6 +84,20 @@ a {
 #find-us {
     color: var(--primary-color);
     background-color: #3A546D;
+}
+
+.my_find_height {
+    height: 3rem;
+}
+
+.my_round {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
